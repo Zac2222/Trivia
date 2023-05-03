@@ -1,0 +1,19 @@
+body{
+    background-color: dimgray;
+}
+*{
+    color: azure;
+}
+#menuBtns{
+    padding-top: 300px;
+}
+.btn{
+    width: 400px;
+}
+#push{
+    padding-top: 200px;
+}   
+#scoreText{
+    font-size: 100px;
+    color: blue;
+}

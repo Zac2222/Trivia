@@ -1,0 +1,492 @@
+{
+    "easy": [
+        {
+            "q": "Guilty gear is set in a universe where humans are constantly at war with gears. But what exactly is a gear?",
+            "a1": "A living weapon",
+            "a2": "A source of power",
+            "a3": "An alien race",
+            "a4": "A sentient evil robot",
+            "c": "A living weapon"
+        },
+        {
+            "q": "Who is sol Badguy?",
+            "a1": "The main antagonist of the series",
+            "a2": "The main protagonist of the series",
+            "a3": "Saul Goodmans  rival",
+            "a4": "A god looking to find and destroy the source of the gears",
+            "c": "The main protagonist of the series"
+        },
+        {
+            "q": "Who is \"that man\"?",
+            "a1": "the creator of gears",
+            "a2": "the king of the holy order",
+            "a3": "the captain of the jellyfish pirates",
+            "a4": "the first gear",
+            "c": "the creator of gears"
+        },
+        {
+            "q": "Who is ky?",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": "",
+            "c": ""
+        },
+        {
+            "q": "What is sols relationship with ky?",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": "",
+            "c": ""
+        },
+        {
+            "q": "Who is aria?",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": "",
+            "c": ""
+        },
+        {
+            "q": "What is sols real name?",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": "",
+            "c": ""
+        },
+        {
+            "q": "What happened to aria?",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": "",
+            "c": ""
+        },
+        {
+            "q": "Who is justice?",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": "",
+            "c": ""
+        },
+        {
+            "q": "Who finally killed justice?",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": "",
+            "c": ""
+        },
+        {
+            "q": "The game is called guilty gear, but who actually is the guilty gear?",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": "",
+            "c": ""
+        },
+        {
+            "q": "What is the backyard?",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": "",
+            "c": ""
+        },
+        {
+            "q": "What is the valentine series?",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": "",
+            "c": ""
+        },
+        {
+            "q": "Who is Dizzy",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": "",
+            "c": ""
+        },
+        {
+            "q": "Who is elphelt",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": "",
+            "c": ""
+        },
+        {
+            "q": "Ky and dizzy had a son, what is his name?",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": "",
+            "c": ""
+        },
+        {
+            "q": "Sin is considered a half gear. What does that mean?",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": "",
+            "c": ""
+        },
+        {
+            "q": "Why does sin use a flag as his weapon of choice?",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": "",
+            "c": ""
+        },
+        {
+            "q": "What does sol have within him that makes him the strongest gear?",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": "",
+            "c": ""
+        },
+        {
+            "q": "How many times has sol had to kill his wife?",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": "",
+            "c": ""
+        }
+    ], 
+
+    "medium": [
+        {
+            "q": "Who is the captain of the jellyfish pirates",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": "",
+            "c": ""
+        },
+        {
+            "q": "What is \"that mans\" real name?",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": "",
+            "c": ""
+        },
+        {
+            "q": "Who is Jack-O",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": "",
+            "c": ""
+        },
+        {
+            "q": "What is sols realationship with Jack-O",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": "",
+            "c": ""
+        },
+        {
+            "q": "What is the current state of japan in the guilty gear universe?",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": "",
+            "c": ""
+        },
+        {
+            "q": "People of japanese decent are very unique in this universe. What is it that makes them so unique?",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": "",
+            "c": ""
+        },
+        {
+            "q": "Who is testament?",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": "",
+            "c": ""
+        },
+        {
+            "q": "What does testament currently fight with in guilty gear strive?",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": "",
+            "c": ""
+        },
+        {
+            "q": "Who is Baiken?",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": "",
+            "c": ""
+        },
+        {
+            "q": "What is Baiken after?",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": "",
+            "c": ""
+        },
+        {
+            "q": "Who is bedman ?", 
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": "",
+            "c": ""
+        },
+        {
+            "q": "Who is ramlethal?",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": "",
+            "c": ""
+        },
+        {
+            "q": "What does bedman do to remlethal?",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": "",
+            "c": ""
+        },
+        {
+            "q": "Why did bedman do this to remlethal?",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": "",
+            "c": ""
+        },
+        {
+            "q": "Who is happy chaos?",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": "",
+            "c": ""
+        },
+        {
+            "q": "What is sol badguys weapon",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": "",
+            "c": ""
+        },
+        {
+            "q": "What is sols weapon called?",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": "",
+            "c": ""
+        },
+        {
+            "q": "Who is Axl Low?",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": "",
+            "c": ""
+        },
+        {
+            "q": "Who is I-no?",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": "",
+            "c": ""
+        },
+        {
+            "q": "Jam is a character playable in the story who runs a resturant before someone burned it down. Who was it?",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": "",
+            "c": ""
+        }
+    ], 
+
+    "hard": [
+        {
+            "q": "",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": "",
+            "c": ""
+        },
+        {
+            "q": "",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": "",
+            "c": ""
+        },
+        {
+            "q": "",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": "",
+            "c": ""
+        },
+        {
+            "q": "",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": "",
+            "c": ""
+        },
+        {
+            "q": "",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": "",
+            "c": ""
+        },
+        {
+            "q": "",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": "",
+            "c": ""
+        },
+        {
+            "q": "",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": "",
+            "c": ""
+        },
+        {
+            "q": "",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": "",
+            "c": ""
+        },
+        {
+            "q": "",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": "",
+            "c": ""
+        },
+        {
+            "q": "",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": "",
+            "c": ""
+        },
+        {
+            "q": "",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": "",
+            "c": ""
+        },
+        {
+            "q": "",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": "",
+            "c": ""
+        },
+        {
+            "q": "",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": "",
+            "c": ""
+        },
+        {
+            "q": "",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": "",
+            "c": ""
+        },
+        {
+            "q": "",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": "",
+            "c": ""
+        },
+        {
+            "q": "",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": "",
+            "c": ""
+        },
+        {
+            "q": "",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": "",
+            "c": ""
+        },
+        {
+            "q": "",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": "",
+            "c": ""
+        },
+        {
+            "q": "",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": "",
+            "c": ""
+        },
+        {
+            "q": "",
+            "a1": "",
+            "a2": "",
+            "a3": "",
+            "a4": "",
+            "c": ""
+        }
+    ] 
+}
+
+
