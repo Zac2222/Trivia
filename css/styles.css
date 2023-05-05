@@ -1,19 +1,40 @@
 body{
-    background-color: dimgray;
+    background-image: url(/images/stage.png);
 }
 *{
     color: azure;
+    font-size: 20px;
+    font-family: 'gear font';
+    letter-spacing: 0.1rem;
+  
+}
+@font-face {
+    font-family: 'gear font';
+    src: url(/font/Impact\ -\ Strive.otf);
 }
 #menuBtns{
     padding-top: 300px;
 }
+#difficultyBtns{
+    padding-top: 350px;
+}
 .btn{
     width: 400px;
+    color: azure;
+    font-family: 'gear font';
+    letter-spacing: 0.1rem;
+}
+.btn-color{
+    background-image: linear-gradient(to bottom, #540703, #1e0c0e);
 }
 #push{
     padding-top: 200px;
 }   
 #scoreText{
     font-size: 100px;
-    color: blue;
+    color: azure;
+}
+#q{
+    background-image: linear-gradient(to bottom, #540703, #1e0c0e);
+    border-radius: 30px;
 }
