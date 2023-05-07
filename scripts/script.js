@@ -55,16 +55,16 @@ function loadMenu(html)
     django.volume = 0.1;
     let startBtn = document.getElementById('startBtn');
     let stageSelect = document.getElementById('stageSelect');
-    let quit = document.getElementById('quit');
+    let quitBtn = document.getElementById('quitBtn');
     startBtn.addEventListener('click',function(e){
         loadHTML('../site/difficulty.html');
     });
     stageSelect.addEventListener('click',function(e){
         loadHTML('../site/stage.html')
     });
-    // quit.addEventListener('click',function(e){
-    
-    // });
+    quitBtn.addEventListener('click',function(e){
+        window.location.href = "https://youtu.be/KmGUgG4vFPM"
+    });
 }
 
 function loadDifficulty(html)
