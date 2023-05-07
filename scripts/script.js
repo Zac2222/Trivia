@@ -352,6 +352,18 @@ function loadEnd(html, score, value)
     let finalScore = document.getElementById('finalScore');
     let unlockText = document.getElementById('unlockText');
     let endMenuBtn = document.getElementById('endMenuBtn');
+    let smellOfTheGame = document.getElementById('smellOfTheGame');
+    let birthdayTrain = document.getElementById('birthdayTrain');
+    let audio1 = document.getElementById('heavyDay');
+    let audio2 = document.getElementById('aloneInfection');
+    let audio3 = document.getElementById('kissOfDeath');
+    let audio4 = document.getElementById('birthdayTrain');
+    let audio5 = document.getElementById('django');
+    audio1.pause();
+    audio2.pause();
+    audio3.pause();
+    audio4.pause();
+    audio5.pause();
     switch(value)
     {
         case 1:
@@ -372,7 +384,14 @@ function loadEnd(html, score, value)
     finalScore.innerText = `${score}/20`
     if(score >= 10)
     {
+        smellOfTheGame.play();
+        smellOfTheGame.volume = 0.1;
         unlockText.innerText = 'You unlocked a new stage, it has been added to stage select!'
+    }
+    else if(score < 10)
+    {
+        birthdayTrain.play();
+        birthdayTrain.volume = 0.1;
     }
     endMenuBtn.addEventListener('click',function(e){
         loadHTML('../site/menu.html' );
