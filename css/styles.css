@@ -27,14 +27,38 @@ body{
 .btn-color{
     background-image: linear-gradient(to bottom, #540703, #1e0c0e);
 }
-#push{
-    padding-top: 200px;
-}   
+
+#stageText{
+    background-image: linear-gradient(to bottom, #540703, #1e0c0e);
+}
+ 
 #scoreText{
     font-size: 100px;
-    color: azure;
+    color: rgb(45, 97, 240);
+}
+#questionText{
+    font-size: 100px;
+    color: rgb(247, 110, 206);
 }
 #q{
     background-image: linear-gradient(to bottom, #540703, #1e0c0e);
     border-radius: 30px;
+    height: 80px;
+    width: auto;
+    margin: auto;
+
+}
+#timer{
+    background-color: black;
+    border-radius: 300px;
+    font-size: 40px;
+    margin: auto;
+}
+#endContainer{
+    background-image: linear-gradient(to bottom, #540703, #1e0c0e);
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    height: 100vh; 
 }

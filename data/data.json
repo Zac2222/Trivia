@@ -58,11 +58,11 @@
         },
         {
             "q": "What happened to aria?",
-            "a1": "She was turned into a gear",
+            "a1": "She was turned into Justice",
             "a2": "She vanished during her research",
             "a3": "She become scattered across time",
             "a4": "She died to save sol",
-            "c": "She was turned into a gear"
+            "c": "She was turned into Justice"
         },
         {
             "q": "Who is justice?",
@@ -94,7 +94,7 @@
             "a2": "The control room for the gear creation process",
             "a3": "The source of all magic and home of the universal will",
             "a4": "A special safe zone only known about by a select few",
-            "c": "The source of all magic"
+            "c": "The source of all magic and home of the universal will"
         },
         {
             "q": "What is the valentine series?",
@@ -118,7 +118,7 @@
             "a2": "A valentine created to hunt and kill Sol Badguy",
             "a3": "A valentine set on destroying humanity",
             "a4": "A valentine that disobeys the universal will",
-            "c": ""
+            "c": "A valentine that disobeys the universal will"
         },
         {
             "q": "Ky and dizzy had a son, what is his name?",
@@ -265,7 +265,7 @@
             "a2": "Kill her dog",
             "a3": "Save her from Sol's flame of corruption",
             "a4": "Became her first friend",
-            "c": "kill her dog"
+            "c": "Kill her dog"
         },
         {
             "q": "Why did bedman kill ramlethals dog",
@@ -364,7 +364,7 @@
             "a2": "Figure out to revive his victims",
             "a3": "Find the real cure to death",
             "a4": "To atone for his sins",
-            "c": "save everyone to atone for his sins"
+            "c": "To atone for his sins"
         },
         {
             "q": "Why is bedman in bed?",
@@ -444,7 +444,7 @@
             "a2": "It can heal his wounds",
             "a3": "It becomes stronger as it becomes coated in blood",
             "a4": "It posses Nagoriyuki",
-            "c": "It can stop any regenerative properties"
+            "c": "It can stop any regenerative abilities"
         },
         {
             "q": "Dizzy has two wings, black and white. What are the names of dizzy's wings?",
