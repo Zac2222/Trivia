@@ -57,7 +57,7 @@
             "c": "Frederick"
         },
         {
-            "q": "What happened to aria?",
+            "q": "What happened to Aria?",
             "a1": "She was turned into Justice",
             "a2": "She vanished during her research",
             "a3": "She become scattered across time",
@@ -359,7 +359,7 @@
             "c": "Faust"
         },
         {
-            "q": "What is fausts purpose now?",
+            "q": "What is Fausts purpose now?",
             "a1": "Protect Sol",
             "a2": "Figure out to revive his victims",
             "a3": "Find the real cure to death",
@@ -367,7 +367,7 @@
             "c": "To atone for his sins"
         },
         {
-            "q": "Why is bedman in bed?",
+            "q": "Why is Bedman in bed?",
             "a1": "He has a severe illness",
             "a2": "He is in a coma, stuck in his dream world",
             "a3": "He is too smart to remain awake",
@@ -375,7 +375,7 @@
             "c": "He is too smart to remain awake"
         },
         {
-            "q": "Who finally killed bedman?",
+            "q": "Who finally killed Bedman?",
             "a1": "Sol",
             "a2": "Ky",
             "a3": "Robo-Ky",
@@ -387,11 +387,11 @@
             "a1": "Bedman's Sister",
             "a2": "Baikens daughter",
             "a3": "A mage from japan",
-            "a4": "The creator of bedmans bed",
+            "a4": "The creator of Bedman's bed",
             "c": "Bedman's Sister"
         },
         {
-            "q": "What was remlethals original purpose when she was first revealed?",
+            "q": "What was Ramlethals original purpose when she was first revealed?",
             "a1": "To Protect humanity from the valentines",
             "a2": "To take the blood of juno from sin",
             "a3": "To take the flame of corruption from sol",
@@ -455,7 +455,7 @@
             "c": "Necro and Undine"
         },
         {
-            "q": "What is Asuka(that man)'s final action toward sol?",
+            "q": "What is Asuka(that man)'s final action toward Sol?",
             "a1": "Turning Jack-o back into aria her and sol can be happy again",
             "a2": "Giving him the entire knowledge of the universe",
             "a3": "Taking the flame of corruption so he can live a normal human life",

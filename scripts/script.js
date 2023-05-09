@@ -53,6 +53,9 @@ function loadMenu(html)
     audio4.pause();
     audio5.pause();
     audio6.pause();
+    //the music wont start when the page loads for some reason, i tried so many different things and nothing seems to work, making a music function, calling it in other places, autoplay, in the html itself, nothing
+    //it will play when the menu is loaded from anywhere else though, going into stage select then going back, or playing a game and returning to menu will play the music
+    //for the sake of my sanity lets call it a feature, you unlock menu music after playing the game for the first time :O
     django.play();
     django.volume = 0.1;
     let startBtn = document.getElementById('startBtn');
@@ -170,6 +173,7 @@ function loadStart(html, questions)
     next.disabled = true;
     function startTimer() //timer function that iterates to the next questions if time runs out
     {
+        timer.style.color = 'azure'
         let countdown = 20;
         interval = setInterval(() => {
             countdown--;
@@ -430,7 +434,7 @@ function loadStage(html, background)
     nightmare.disabled = true;
     council.disabled = true;
 
-    if(easyScore >= 10) //the points stored in the loadEnd function will allow for unlockable background if you score 10 or more on a difficulty (this is my favorite addition i made and im really proud of it :>)
+    if(easyScore >= 10) //the points stored in the loadEnd function will allow for unlockable backgrounds if you score 10 or more on a difficulty (this is my favorite addition i made and im really proud of it :>)
     {
         canyon.disabled = false;
     }
