@@ -53,8 +53,9 @@ function loadMenu(html)
     audio4.pause();
     audio5.pause();
     audio6.pause();
+
     //the music wont start when the page loads for some reason, i tried so many different things and nothing seems to work, making a music function, calling it in other places, autoplay, in the html itself, nothing
-    //it will play when the menu is loaded from anywhere else though, going into stage select then going back, or playing a game and returning to menu will play the music
+    //it will play when the menu is loaded from anywhere else though, going into stage select then going back, or after playing and returning to menu
     //for the sake of my sanity lets call it a feature, you unlock menu music after playing the game for the first time :O
     django.play();
     django.volume = 0.1;
