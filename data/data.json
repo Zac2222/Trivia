@@ -204,7 +204,7 @@
             "c": "It's gone"
         },
         {
-            "q": "People of japanese decent are very unique in this universe. What is it that makes them so unique?",
+            "q": "People of japanese descent  are very unique in this universe. What is it that makes them so unique?",
             "a1": "they have strong control over magic",
             "a2": "They are half-gears",
             "a3": "They can enter the backyard",
@@ -246,7 +246,7 @@
         {
             "q": "Who is bedman ?", 
             "a1": "A servant helping to bring about a new world",
-            "a2": "A possesed robotic bed",
+            "a2": "A possessed robotic bed",
             "a3": "A bed-gear born from the backyard",
             "a4": "A sentient bed created from magic of japanese origin",
             "c": "A servant helping to bring about a new world"
@@ -369,7 +369,7 @@
         {
             "q": "Why is bedman in bed?",
             "a1": "He has a severe illness",
-            "a2": "He is in a comma, stuck in his dream world",
+            "a2": "He is in a coma, stuck in his dream world",
             "a3": "He is too smart to remain awake",
             "a4": "Part of a curse put on him from the universal will",
             "c": "He is too smart to remain awake"
@@ -443,7 +443,7 @@
             "a1": "It can stop any regenerative abilities",
             "a2": "It can heal his wounds",
             "a3": "It becomes stronger as it becomes coated in blood",
-            "a4": "It posses Nagoriyuki",
+            "a4": "It possesses Nagoriyuki",
             "c": "It can stop any regenerative abilities"
         },
         {

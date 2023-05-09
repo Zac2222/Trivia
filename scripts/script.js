@@ -46,11 +46,13 @@ function loadMenu(html)
     let audio3 = document.getElementById('kissOfDeath');
     let audio4 = document.getElementById('birthdayTrain');
     let audio5 = document.getElementById('smellOfTheGame');
+    let audio6 = document.getElementById('slash');
     audio1.pause();
     audio2.pause();
     audio3.pause();
     audio4.pause();
     audio5.pause();
+    audio6.pause();
     django.play();
     django.volume = 0.1;
     let startBtn = document.getElementById('startBtn');
@@ -134,10 +136,12 @@ function loadQuestions(url, difficulty)
     });
 }
 
+//i realize this all could have been split into multiple seperate functions, but like i didnt, and i should have i know
 function loadStart(html, questions)
 {
     inject.innerHTML = html
     let audio = document.getElementById('django'); //pausing menu audio from here for the same reasons as listen in the menu function
+    let timeOut = document.getElementById('slash');
     django.pause();
     let questionCount = 0;
     let totalQuestions = questions.length;
@@ -164,7 +168,7 @@ function loadStart(html, questions)
     a3.innerText = questions[questionCount].a3;
     a4.innerText = questions[questionCount].a4;
     next.disabled = true;
-    function startTimer()
+    function startTimer() //timer function that iterates to the next questions if time runs out
     {
         let countdown = 20;
         interval = setInterval(() => {
@@ -178,16 +182,32 @@ function loadStart(html, questions)
                 }
                 else
                 {
-                    questionCount++;
-                    questionText.innerText = `Question: ${questionCount + 1}`;
-                    q.innerText = questions[questionCount].q;
-                    a1.innerText = questions[questionCount].a1;
-                    a2.innerText = questions[questionCount].a2;
-                    a3.innerText = questions[questionCount].a3;
-                    a4.innerText = questions[questionCount].a4;
-                    correct = questions[questionCount].c
-                    countdown = 20;
-                    timer.innerText = countdown;
+                    slash.currentTime = 3; //the audio is 5 seconds but the sound affects only plays toward the end so this plays just the sound where it starts (because i dont know how to edit audio files)
+                    slash.play();
+                    slash.volume = 0.5;
+                    a1.disabled = true;
+                    a2.disabled = true;
+                    a3.disabled = true;
+                    a4.disabled = true;
+                    next.disabled = false;
+                    clearInterval(interval);
+                    timer.innerText = 'SLASH!'
+                    timer.style.color = 'red'; //font color for the correct answer turns red instead of green since you ran out of time so didnt even choose an answer, just a style choice i think is cool
+                    switch(correct)
+                    {
+                    case a1.innerText:
+                    a1.style.color = 'red';
+                    break;
+                    case a2.innerText:
+                    a2.style.color = 'red';
+                    break;
+                    case a3.innerText:
+                    a3.style.color = 'red';
+                    break;
+                    case a4.innerText:
+                    a4.style.color = 'red';
+                    break;
+                    }
                 }
             }
         },1000);
@@ -214,7 +234,7 @@ function loadStart(html, questions)
         a4.disabled = true;
         next.disabled = false;
         clearInterval(interval);
-        switch(correct)
+        switch(correct) //finds the correct answer and sets it to green so you know which answer it was
         {
            case a1.innerText:
             a1.style.color = 'green';
@@ -314,7 +334,7 @@ function loadStart(html, questions)
             break;
         }
     });
-    next.addEventListener('click',function(e){
+    next.addEventListener('click',function(e){ //next button because i wanted to add a way to see the correct answer and also give some breathing room between questions
         if(questionCount == 19)
         {
             loadHTML('../site/end.html');
@@ -364,7 +384,7 @@ function loadEnd(html, score, value)
     audio3.pause();
     audio4.pause();
     audio5.pause();
-    switch(value)
+    switch(value) //adds the score value to one of these three values so it can be stored seperatly for each difficulty and keeps it when returning to menu
     {
         case 1:
             easyScore = score;
@@ -382,7 +402,7 @@ function loadEnd(html, score, value)
     }
 
     finalScore.innerText = `${score}/20`
-    if(score >= 10)
+    if(score >= 10) //plays different music  depending on if the score is above or below 10
     {
         smellOfTheGame.play();
         smellOfTheGame.volume = 0.1;
@@ -410,7 +430,7 @@ function loadStage(html, background)
     nightmare.disabled = true;
     council.disabled = true;
 
-    if(easyScore >= 10)
+    if(easyScore >= 10) //the points stored in the loadEnd function will allow for unlockable background if you score 10 or more on a difficulty (this is my favorite addition i made and im really proud of it :>)
     {
         canyon.disabled = false;
     }
