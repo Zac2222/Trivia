@@ -254,6 +254,10 @@ function loadStart(html, questions)
             a4.style.color = 'green';
             break;
         }
+        if(a1.innerText != correct)
+        {
+            a1.style.color = 'red';
+        }
     });
     a2.addEventListener('click',function(e){
         if(a2.innerText == correct)
@@ -281,6 +285,10 @@ function loadStart(html, questions)
            case a4.innerText:
             a4.style.color = 'green';
             break;
+        }
+        if(a2.innerText != correct)
+        {
+            a2.style.color = 'red';
         }
     });
     a3.addEventListener('click',function(e){
@@ -310,6 +318,10 @@ function loadStart(html, questions)
             a4.style.color = 'green';
             break;
         }
+        if(a3.innerText != correct)
+        {
+            a3.style.color = 'red';
+        }
     });
     a4.addEventListener('click',function(e){
         if(a4.innerText == correct)
@@ -337,6 +349,10 @@ function loadStart(html, questions)
            case a4.innerText:
             a4.style.color = 'green';
             break;
+        }
+        if(a4.innerText != correct)
+        {
+            a4.style.color = 'red';
         }
     });
     next.addEventListener('click',function(e){ //next button because i wanted to add a way to see the correct answer and also give some breathing room between questions
